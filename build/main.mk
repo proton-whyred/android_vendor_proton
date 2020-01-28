@@ -29,5 +29,8 @@ ADDITIONAL_BUILD_PROPERTIES += \
 PRIVATE_BUILD_DESC := $(PRODUCT_OVERRIDE_DESC)
 endif
 
+# Skip boot jars check
+SKIP_BOOT_JARS_CHECK := true
+
 # Kernel
 include vendor/proton/build/BoardConfigKernel.mk
