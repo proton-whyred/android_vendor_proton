@@ -21,6 +21,7 @@ $(call inherit-product, vendor/proton/telephony/telephony.mk)
 $(call inherit-product, vendor/proton/audio/audio.mk)
 $(call inherit-product-if-exists, vendor/proton/signing/dev.mk)
 $(call inherit-product, vendor/proton/build/qcom_boards.mk)
+$(call inherit-product, vendor/proton/aospa/facesense/facesense.mk)
 
 # Flatten APEXs for performance
 # TODO: fix Pixel 6 camera HAL flattening and re-enable this
