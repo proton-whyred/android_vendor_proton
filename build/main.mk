@@ -28,3 +28,6 @@ ADDITIONAL_BUILD_PROPERTIES += \
 # Description needs special treatment because it contains spaces
 PRIVATE_BUILD_DESC := $(PRODUCT_OVERRIDE_DESC)
 endif
+
+# Kernel
+include vendor/proton/build/BoardConfigKernel.mk
