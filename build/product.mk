@@ -39,10 +39,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.input.video_enabled=false
 
-# IORap app launch prefetching using Perfetto traces and madvise
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.iorapd.enable=true
-
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
